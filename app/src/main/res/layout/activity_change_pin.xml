@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="16dp"
+        android:id="@+id/til_enter_original_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER ORIGINAL PIN">
+        <EditText
+            android:id="@+id/et_enter_original_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:maxLength="4"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="24dp"
+        android:id="@+id/til_enter_new_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER NEW PIN">
+        <EditText
+            android:id="@+id/et_enter_new_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:maxLength="4"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="24dp"
+        android:id="@+id/til_reenter_new_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RE-ENTER NEW PIN">
+        <EditText
+            android:id="@+id/et_reenter_new_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:maxLength="4"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:layout_height="64dp"
+        android:layout_width="match_parent"
+        android:id="@+id/b_enter_change_pin"
+        android:textSize="24sp"
+        android:text="CHANGE PIN"/>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/b_lock"
+        android:layout_weight="0.5"
+        android:text="LOCK"
+        android:textAlignment="center"
+        android:textSize="48sp"/>
+
+    <Button
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/b_change_pin"
+        android:layout_weight="0.5"
+        android:text="CHANGE PIN"
+        android:textAlignment="center"
+        android:textSize="48sp"/>
+</LinearLayout>
